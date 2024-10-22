@@ -3,9 +3,6 @@
 <h1><%= @article.title -%></h1>
 <%= @article.body -%>
 
-<%= image_tag @photo.image_url %>
-
-<%= get_video_iframe('https://www.youtube.com/watch?v=6n8x33GQjds') %>
 
 <h2>Comments</h2>
 <%= render @article.comments -%>
